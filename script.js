@@ -15,7 +15,7 @@ p1Button.addEventListener("click", function() {
 	p1Score++;
 	if(p1Score === winningScore){
 		p1Display.classList.add("winner");
-		console.log("Gamer Over!");
+		alert("Gamer Over!");
 		gameOver = true;
 	}
 	console.log(p1Score);
