@@ -28,7 +28,7 @@ p2Button.addEventListener("click", function(){
 		p2Score++;
 		if(p2Score === winningScore) {
 			p2Display.classList.add("winner");
-			console.log("Gamer Over!");
+			alert("Gamer Over!");
 			gameOver = true;
 		}
 	}
