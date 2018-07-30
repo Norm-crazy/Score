@@ -1,3 +1,33 @@
 .winner {
 	color: red;
 }
+body {
+	background: #232526;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: 'Roboto Mono', monospace;
+	color: white;
+}
+
+.container {
+	margin-left: 35%;
+	margin-top: 15%;
+}
+
+input {
+	width: 85px;
+	font-size: 20px;
+}
+
+button{
+	padding: 10px 15px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 9px #999;
+}

@@ -3,14 +3,17 @@
 <head>
 	<title>Score keeper</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
 </head>
 <body>
-	<h1><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
-	<p>Playing to: <span>5</span></p>
-	<input type="number">
-	<button id="p1">Player One</button>
-	<button id="p2">Player Two</button>
-	<button id="reset">Reset</button>
+	<div class="container">
+		<h1><span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+		<p>Playing to: <span>5</span></p>
+		<input type="number" min="0" max="100">
+		<button id="p1">Player One</button>
+		<button id="p2">Player Two</button>
+		<button id="reset">Reset</button>
+	</div>
 <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
